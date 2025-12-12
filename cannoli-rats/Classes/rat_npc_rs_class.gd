@@ -1,7 +1,7 @@
 # make custom class for NPC
 class_name RatNPC
 # Extend Resource 
-extends Resource
+extends Node
 # Create Five Different types of rats
 @export var rat_names : PackedStringArray = ["Lillard","Jack","John","Rudolph","Thomas"]
 # create Five Sprites for each rat

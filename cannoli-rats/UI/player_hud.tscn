@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://ns6ev5pwyqc1"]
+
+[ext_resource type="Script" uid="uid://chlc1myli8q1q" path="res://Scripts/player_hud.gd" id="1_5o0p8"]
+
+[node name="PlayerHud" type="CanvasLayer"]
+script = ExtResource("1_5o0p8")
+
+[node name="CoinCount" type="RichTextLabel" parent="."]
+offset_left = 1111.0
+offset_top = 2.0
+offset_right = 1151.0
+offset_bottom = 42.0
+text = "0"
+
+[node name="TimeLabel" type="RichTextLabel" parent="."]
+offset_left = 8.0
+offset_top = 5.0
+offset_right = 135.0
+offset_bottom = 45.0
+text = "Time"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 11.0
+offset_top = 38.0
+offset_right = 51.0
+offset_bottom = 78.0
+
+[node name="Timer" type="Timer" parent="RichTextLabel"]
+autostart = true
