@@ -1,13 +1,19 @@
 extends Node
 # instantiate scenes
-#GET COIN COUNT FROM CLASSES
-#ONREADY
+#ONREADY GET COIN COUNT
 @onready var coin_ct = $CoinCount
 #ONREADY TIMER
 @onready var rat_timer = $RichTextLabel/Timer
+#EXPORT PLAYER STATS
+@export var stats : PlayerStats
 # ADD READY FUNCTION
-
-var newCoins = PlayerStats.new()
+func _ready() -> void:
+	#START TIMER 
+	rat_timer.autostart = true 
+	
+	
+	
 
 func _process(_delta: float) -> void:
-	coin_ct = newCoins
+	return
+	
