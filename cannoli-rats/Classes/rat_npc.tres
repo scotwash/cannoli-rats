@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="RatNPC" load_steps=2 format=3 uid="uid://c7c3p63pj3yfn"]
+
+[ext_resource type="Script" uid="uid://c6hdce6gry82y" path="res://Classes/rat_npc_rs_class.gd" id="1_4n1k4"]
+
+[resource]
+script = ExtResource("1_4n1k4")
+rat_names = ["Lillard", "Jack", "John", "Rudolph", "Thomas"]
+rat_mons = [30, 20, 25, 35, 40]
+rat_approve = ["Thankie!", "Happy Squeak!"]
+rat_deny = ["#%!", "*&!"]
